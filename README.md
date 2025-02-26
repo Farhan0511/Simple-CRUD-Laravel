@@ -21,6 +21,13 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## CRUD Operation
+
+- Create: Add new records using a form.
+- Read: Display the list of records.
+- Update: Edit existing records.
+- Delete: Remove records from the database.
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
@@ -64,3 +71,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Author
+
+Created by Mochamad Farhan Ferdiansyah
+Email: muhammadfarhan8743@gmail.com
