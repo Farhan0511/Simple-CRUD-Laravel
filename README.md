@@ -75,4 +75,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Author
 
 Created by Mochamad Farhan Ferdiansyah
+
 Email: muhammadfarhan8743@gmail.com
