@@ -15,8 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/user' , [HomeController::class, 'index']); // Penulisan 1
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/' , [HomeController::class, 'dashboard']); 
+
+Route::get('/login' , [HomeController::class, 'login']);
+
+Route::get('/create' , [HomeController::class, 'create'])->name('create'); 
+
+Route::post('/store' , [HomeController::class, 'store'])->name('store'); 
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});    
